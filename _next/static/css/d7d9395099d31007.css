@@ -1,0 +1,325 @@
+.email {
+  position: relative;
+  z-index: 40;
+  display: flex;
+  height: 404px;
+  width: 100%;
+  max-width: 1029px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  border: 0.67px solid #ffffff1a;
+  padding: 0.5rem;
+}
+@media not all and (min-width: 768px) {
+  .email {
+    padding: 0.625rem;
+  }
+}
+.email {
+  box-shadow: inset 0 0 0 6px hsla(0, 0%, 100%, 0.031);
+}
+.email .email-container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 1009px;
+  justify-content: flex-end;
+  border-radius: 8px;
+}
+@media not all and (min-width: 768px) {
+  .email .email-container {
+    flex-direction: column;
+  }
+}
+.email .email-container {
+  background: hsla(0, 0%, 46%, 0.16);
+  backdrop-filter: blur(100px);
+  box-shadow: inset 2px 4px 16px 0 hsla(0, 0%, 97%, 0.059);
+}
+.email .email-container img:first-child {
+  position: absolute;
+  left: 0;
+}
+@media not all and (min-width: 768px) {
+  .email .email-container img:first-child {
+    display: none;
+  }
+}
+.email .email-container img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+@media (min-width: 768px) {
+  .email .email-container img:nth-child(2) {
+    display: none;
+  }
+}
+.email .email-container form {
+  z-index: 20;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+@media not all and (min-width: 768px) {
+  .email .email-container form {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .email .email-container form {
+    max-width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .email .email-container form {
+    max-width: 528px;
+  }
+}
+.email .email-container form .text-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.email .email-container form .text-content span:first-child {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8f8f8f2;
+}
+@media not all and (min-width: 768px) {
+  .email .email-container form .text-content span:first-child {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+.email .email-container form .text-content span:first-child {
+  font-family: Inter, sans-serif;
+}
+.email .email-container form .text-content span:last-child,
+.email .email-container form .text-content span:nth-child(2) {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(157 157 157 / var(--tw-text-opacity, 1));
+}
+@media not all and (min-width: 768px) {
+  .email .email-container form .text-content span:last-child,
+  .email .email-container form .text-content span:nth-child(2) {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+.email .email-container form .text-content span:last-child,
+.email .email-container form .text-content span:nth-child(2) {
+  font-family: Inter, sans-serif;
+}
+.email .email-container form .input {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4px 4px 4px 16px;
+  border-radius: 44px;
+  border: 1px solid #5b5b5b;
+  background: #1a1a1a;
+}
+.email .email-container form .input input {
+  height: 100%;
+  width: 100%;
+  caret-color: #828282;
+  color: #fff;
+  background: none;
+}
+.email .email-container form .input input:focus {
+  outline: none;
+}
+.email .email-container form .input input::placeholder {
+  font-size: 14px;
+  color: #828282;
+}
+.email .email-container form .input button {
+  height: 100%;
+  width: 120px;
+  border-radius: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.email .email-container form .input button:hover {
+  background: #6cd596;
+}
+.gpu {
+  position: relative;
+  z-index: 30;
+  display: flex;
+  height: auto;
+  width: 100%;
+  max-width: 1029px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  border: 0.67px solid #ffffff1a;
+  padding: 0.5rem;
+}
+@media not all and (min-width: 768px) {
+  .gpu {
+    padding: 0.625rem;
+  }
+}
+@media (min-width: 1024px) {
+  .gpu {
+    height: 404px;
+  }
+}
+.gpu {
+  box-shadow: inset 0 0 0 6px hsla(0, 0%, 100%, 0.031);
+}
+.gpu .gpu-container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 1009px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 8px;
+}
+@media not all and (min-width: 1024px) {
+  .gpu .gpu-container {
+    flex-direction: column;
+  }
+}
+.gpu .gpu-container {
+  backdrop-filter: blur(100px);
+  box-shadow: inset 2px 4px 16px 0 hsla(0, 0%, 97%, 0.059);
+}
+.gpu .gpu-container form {
+  z-index: 20;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+@media not all and (min-width: 768px) {
+  .gpu .gpu-container form {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .gpu .gpu-container form {
+    max-width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .gpu .gpu-container form {
+    max-width: 528px;
+  }
+}
+.gpu .gpu-container form .text-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.gpu .gpu-container form .text-content span:first-child {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8f8f8f2;
+}
+@media not all and (min-width: 768px) {
+  .gpu .gpu-container form .text-content span:first-child {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+.gpu .gpu-container form .text-content span:first-child {
+  font-family: Inter, sans-serif;
+}
+.gpu .gpu-container form .text-content span:last-child,
+.gpu .gpu-container form .text-content span:nth-child(2) {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(157 157 157 / var(--tw-text-opacity, 1));
+}
+@media not all and (min-width: 768px) {
+  .gpu .gpu-container form .text-content span:last-child,
+  .gpu .gpu-container form .text-content span:nth-child(2) {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+.gpu .gpu-container form .text-content span:last-child,
+.gpu .gpu-container form .text-content span:nth-child(2) {
+  font-family: Inter, sans-serif;
+}
+.gpu .gpu-container form .input {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4px 4px 4px 16px;
+  border-radius: 44px;
+  border: 1px solid #5b5b5b;
+  background: #1a1a1a;
+}
+.gpu .gpu-container form .input input {
+  height: 100%;
+  width: 100%;
+  caret-color: #828282;
+  color: #fff;
+  background: none;
+}
+.gpu .gpu-container form .input input:focus {
+  outline: none;
+}
+.gpu .gpu-container form .input input::placeholder {
+  font-size: 14px;
+  color: #828282;
+}
+.gpu .gpu-container form .input button {
+  height: 100%;
+  width: 120px;
+  border-radius: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.gpu .gpu-container form .input button:hover {
+  background: #6cd596;
+}

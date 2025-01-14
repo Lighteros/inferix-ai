@@ -1,0 +1,23 @@
+.custom-button {
+  width: 160px;
+  height: 49.286px;
+  border-radius: 94px;
+  background-image: url(/_next/static/media/background-button.1554612e.webp);
+  background-color: rgba(1, 1, 1, 0.1);
+  background-size: 100% 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  box-shadow: 0 2px 26px 0 rgba(27, 118, 255, 0.37),
+    0 2px 33px 0 rgba(0, 255, 56, 0.22);
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.custom-button:hover {
+  background: rgba(126, 255, 178, 0.812);
+  color: #000;
+}

@@ -1,0 +1,91 @@
+.mvp {
+  background-image: url(/_next/static/media/background-mvp.9109ed4a.webp);
+  height: 663px;
+  flex-shrink: 0;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+  background-size: cover;
+}
+.mvp,
+.mvp .mvp-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.mvp .mvp-container {
+  background-image: url(/_next/static/media/matrix.07c81f46.webp);
+  height: 497.5px;
+  gap: 1.25rem;
+  background-size: auto;
+}
+@media not all and (min-width: 640px) {
+  .mvp .mvp-container {
+    width: 1049.2px;
+  }
+}
+@media (min-width: 640px) {
+  .mvp .mvp-container {
+    max-width: 1049.2px;
+  }
+}
+.mvp .mvp-container .content {
+  display: flex;
+  width: 100%;
+  max-width: 223px;
+  flex-direction: column;
+}
+@media not all and (min-width: 640px) {
+  .mvp .mvp-container .content {
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+@media (min-width: 640px) {
+  .mvp .mvp-container .content {
+    gap: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .mvp .mvp-container .content {
+    gap: 40px;
+  }
+}
+.mvp .mvp-container .content {
+  font-family: Inter, sans-serif !important;
+}
+.mvp .mvp-container .content span:first-child {
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0.3) -7.87%,
+    #fff 45.51%,
+    hsla(0, 0%, 100%, 0.3) 103.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter, sans-serif !important;
+  background-clip: text;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 500;
+  line-height: 1.5;
+  color: transparent;
+}
+@media not all and (min-width: 640px) {
+  .mvp .mvp-container .content span:first-child {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media (min-width: 640px) {
+  .mvp .mvp-container .content span:first-child {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .mvp .mvp-container .content span:first-child {
+    font-size: 40px;
+  }
+}
