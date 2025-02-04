@@ -211,12 +211,12 @@
                               "0px 2px 26px 0px rgba(27, 118, 255, 0.37), 0px 2px 33px 0px rgba(0, 255, 56, 0.22)",
                           },
                           onClick: () => {
-                            e.push("https://x.com/InferixAI_ETH");
+                            e.push("https://app.inferixai.cc");
                           },
                           children: (0, a.jsx)("div", {
                             className:
                               "absolute top-0 left-0 translate-y-[1.5px] translate-x-[1.5px] w-[109px] h-[31px] sm:w-[157px] sm:h-[47px] rounded-[96px] bg-black flex justify-center items-center text-[12px] sm:text-[14px] text-white hover:bg-[#7EFFB2CF] hover:text-black",
-                            children: "Follow X",
+                            children: "Launch App",
                           }),
                         }),
                       ],
