@@ -1208,9 +1208,9 @@
                   ],
                 }),
                 (0, a.jsx)(n.A, {
-                  content: "Read Docs",
+                  content: "Buy FERIX",
                   onClick: () => {
-                    e.push("https://alexeys-organization-9.gitbook.io/inferix-ai");
+                    e.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000");
                   },
                   isActive: !0,
                   stylesContent: { fontFamily: "Inter, sans-serif" },
