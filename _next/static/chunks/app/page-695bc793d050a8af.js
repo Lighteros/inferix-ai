@@ -1210,7 +1210,7 @@
                 (0, a.jsx)(n.A, {
                   content: "Buy FERIX",
                   onClick: () => {
-                    e.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000");
+                    e.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xe1aC043770765fC52D219BA2E0ee0d52F787cfEe");
                   },
                   isActive: !0,
                   stylesContent: { fontFamily: "Inter, sans-serif" },
