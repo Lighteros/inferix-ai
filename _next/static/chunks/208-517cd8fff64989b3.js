@@ -58,7 +58,7 @@
                           alt: "Medium",
                         },
                         {
-                          href: "https://alexeys-organization-9.gitbook.io/inferix-ai",
+                          href: "https://docs.inferixai.cc",
                           src: "/assets/images/logo_docs.png",
                           alt: "Docs",
                         },
@@ -169,7 +169,7 @@
           window.scrollTo({ top: 0, behavior: "smooth" });
         },
         o = () => {
-          window.open("https://inferix-ai-app-cs.vercel.app/");
+          window.open("https://app.inferixai.cc");
         },
         c = () => {
           let e = document.getElementById("backer");
@@ -179,7 +179,7 @@
           window.open("/MVP");
         },
         d = () => {
-          window.open("https://alexeys-organization-9.gitbook.io/inferix-ai");
+          window.open("https://docs.inferixai.cc");
         },
         p = () => {
           window.open("/");

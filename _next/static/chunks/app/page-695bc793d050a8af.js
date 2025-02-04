@@ -53,7 +53,7 @@
                     (0, a.jsx)(n.A, {
                       content: "Inferix Explorer",
                       onClick: () => {
-                        e.push("https://inferix-ai-app-cs.vercel.app/");
+                        e.push("https://app.inferixai.cc");
                       },
                       isActive: !0,
                       stylesContent: {
@@ -1172,7 +1172,7 @@
                     (0, a.jsx)("span", {
                       className: "text-white font-medium",
                       children: (0, a.jsx)("a", {
-                        href: "https://alexeys-organization-9.gitbook.io/inferix-ai",
+                        href: "https://docs.inferixai.cc",
                         target: "blank",
                         className: "underline text-[14px]",
                         children: "Testnet is live! ",
