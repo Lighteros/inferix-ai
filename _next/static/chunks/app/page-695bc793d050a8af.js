@@ -1175,7 +1175,7 @@
                         href: "https://docs.inferixai.cc",
                         target: "blank",
                         className: "underline text-[14px]",
-                        children: "Testnet is live! ",
+                        children: "Doc is updated! ",
                       }),
                     }),
                   ],
